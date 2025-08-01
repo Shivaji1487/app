@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Test Web Server</title>
+    <title>Jenkins Web Server Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #f0f8ff, #e0ffff);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: 100px auto;
+            padding: 40px;
+            background-color: #ffffff;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #999;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, this is a test page jenkins job! </h1>
-    <p>If you see this, your web server is working correctly.</p>
+    <div class="container">
+        <h1>✅ Hello from Jenkins!</h1>
+        <p>If you see this, your <strong>web server</strong> is running successfully via <strong>Ansible + Jenkins</strong>.</p>
+        <div class="footer">Powered by Apache HTTP Server</div>
+    </div>
 </body>
 </html>
-
